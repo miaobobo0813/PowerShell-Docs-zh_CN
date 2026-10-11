@@ -1,6 +1,9 @@
 ---
-ms.date: 05/13/2026
+ms.date: 10/11/2026
 ---
+
+[简体中文](README-zh_CN.md) | **English**
+
 # PowerShell Documentation
 
 Welcome to the PowerShell-Docs repository, the home of the official PowerShell documentation.
@@ -40,9 +43,6 @@ treeView-beta
         "📁 assets - Downloadable files linked in documentation"
         "🔀 redir - URL redirection mapping files"
         "📚 reference - Published documentation content"
-            "📘 5.1 - PowerShell 5.1 cmdlet reference"
-            "📘 7.4 - PowerShell 7.4 cmdlet reference"
-            "📘 7.5 - PowerShell 7.5 cmdlet reference"
             "📘 7.6 - PowerShell 7.6 cmdlet reference"
             "📘 7.7 - PowerShell 7.7 cmdlet reference"
             "🍞 bread - Breadcrumb navigation TOC"
@@ -62,6 +62,8 @@ treeView-beta
 
 ## Contributing
 
+**Important: If you need to contribute to the official repository, please visit [MicrosoftDocs/PowerShell-Docs](https://github.com/MicrosoftDocs/PowerShell-Docs).**
+
 We welcome public contributions into this repository via pull requests into the _main_ branch.
 Please note that before we can accept your pull request you must sign our
 [Contribution License Agreement][03]. This is a one-time requirement.
@@ -76,9 +78,17 @@ consistent across versions.
 There are two license files for this project. The [MIT License][05] applies to the code contained in
 this repo. The [Creative Commons license][06] applies to the documentation.
 
+This repo is based on [PowerShell-Docs repo](https://github.com/MicrosoftDocs/PowerShell-Docs)
+with translation. The old document uses the CC BY 4.0 license. (See [LICENSE.md](LICENSE.md))
+
+Localized by miaobobo0813.
+The translated document also uses the CC BY 4.0 license for publication.
+
 <!-- link references -->
 [02]: https://aka.ms/PSDocsContributor
 [03]: https://cla.microsoft.com/
 [04]: CODE_OF_CONDUCT.md
 [05]: LICENSE-CODE.md
 [06]: LICENSE.md
+
+

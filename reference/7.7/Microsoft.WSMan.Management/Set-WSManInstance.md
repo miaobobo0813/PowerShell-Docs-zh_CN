@@ -163,11 +163,7 @@ Invoke-WSManAction @params
 ```
 
 This command calls the **StopService** method on the Spooler service using input from a file. The
-`input.xml` file contains the following content:
-
-```xml
-<p:StopService_INPUT xmlns:p="http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />
-```
+`input.xml` file contains the following content: `<p:StopService_INPUT xmlns:p="http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />`
 
 ## PARAMETERS
 
